@@ -1,0 +1,13 @@
+name: demo actiom
+
+on: 
+  push:
+    branches: [main]
+
+job:
+ testjob:
+   run-on: ubuntu-latest
+ steps:
+  -name: Greeting
+   run: echo "Welcome Pathan"
+   
