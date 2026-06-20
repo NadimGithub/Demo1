@@ -8,5 +8,5 @@ jobs:
    runs-on: ubuntu-latest
  steps:
      -name: Greeting
-     run: echo "Welcome Pathan"
+      run: echo "Welcome Pathan"
    
