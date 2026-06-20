@@ -3,11 +3,10 @@ name: demo actiom
 on: 
   push:
     branches: [main]
-
 jobs:
  testjob:
    runs-on: ubuntu-latest
  steps:
-  - name: Greeting
-   run: echo "Welcome Pathan"
+     -name: Greeting
+     run: echo "Welcome Pathan"
    
