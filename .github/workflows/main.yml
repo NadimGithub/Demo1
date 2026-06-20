@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
 
-job:
+jobs:
  testjob:
-   run-on: ubuntu-latest
+   runs-on: ubuntu-latest
  steps:
-  -name: Greeting
+  - name: Greeting
    run: echo "Welcome Pathan"
    
