@@ -6,7 +6,7 @@ on:
 jobs:
  testjob:
    runs-on: ubuntu-latest
- steps:
-     -name: Greeting
-      run: echo"Welcome Pathan"
+   steps:
+       -name: Greeting
+        run: echo "Welcome Pathan"
    
